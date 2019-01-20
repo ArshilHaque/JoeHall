@@ -5,7 +5,7 @@
 html, body {width: auto!important; overflow-x: hidden!important} 
 
 .bg-img{
-    height: 800px; background-image: url(../img/4.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;
+    height: 850px; background-image: url(../img/bg.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;
 }
 
 .global{
@@ -168,4 +168,16 @@ section {
     padding-bottom: 60px;
 }
 
+.details{transform: skew(10deg);}
+
+.overlay{
+    background: #000000cf;
+    height: 100%;
+    width: 57%;
+    /* -webkit-transform-origin-x: right; */
+    transform: skew(-10deg);
+    left: -12%;
+    display: inline-block;
+    position: relative;
+}
 
