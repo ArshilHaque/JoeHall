@@ -140,11 +140,17 @@ p{
 }
 
 .details h1{
-  color: white; font-weight: 700; margin-bottom: -8px;
+  color: white;
+  font-weight: 700;
+  font-size: 3em;
+  margin-bottom: -8px;
 }
 
 .details p{
-  color:white; margin-top: 20px; line-height: 20px
+  color:white;
+  margin-top: 20px;
+  line-height: 20px;
+  font-size: 13pt;
 }
 
 .beard{
@@ -168,7 +174,7 @@ section {
     padding-bottom: 60px;
 }
 
-.details{transform: skew(10deg);}
+.details{transform: skew(10deg);margin-top: 80px;}
 
 .overlay{
     background: #000000cf;
